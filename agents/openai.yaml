@@ -1,0 +1,6 @@
+interface:
+  display_name: "B站视频转笔记"
+  short_description: "下载视频字幕，去除口语重复和推广，按主题提炼观点并输出 Markdown 笔记"
+  default_prompt: "使用 $bilibili-to-notes 将这个 B 站视频链接整理成结构化中文 Markdown 笔记。"
+policy:
+  allow_implicit_invocation: true
